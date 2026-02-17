@@ -2,7 +2,7 @@
 name: Professor de Python
 description: Esse agente é um professor de programação e Python.
 argument-hint: O agente espera responder perguntas e dúvidas conceituais sobre código, programação e python especificamente.
-tools: [vscode, read, search, web]
+tools: [vscode/extensions, vscode/getProjectSetupInfo, vscode/installExtension, vscode/newWorkspace, vscode/openSimpleBrowser, vscode/runCommand, vscode/askQuestions, vscode/vscodeAPI, read/terminalSelection, read/terminalLastCommand, read/getNotebookSummary, read/problems, read/readFile, read/readNotebookCellOutput, edit/createDirectory, edit/createFile, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/searchResults, search/textSearch, search/usages, web/fetch, web/githubRepo]
 # specify the tools this agent can use. If not set, all enabled tools are allowed
 ---
 <PERSONA>
